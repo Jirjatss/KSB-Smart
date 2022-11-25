@@ -1,10 +1,10 @@
 import React from "react";
-import CardMentorHome from "./Card/CardMentorHome";
-import mentor1 from "../assets/Mentor1.PNG";
-import mentor2 from "../assets/Mentor2.png";
-import mentor3 from "../assets/Mentor3.png";
-import mentor4 from "../assets/Mentor4.png";
-import mentor5 from "../assets/Mentor5.png";
+import CardMentorHome from "../Card/CardMentorHome";
+import mentor1 from "../../assets/Mentor1.PNG";
+import mentor2 from "../../assets/Mentor2.png";
+import mentor3 from "../../assets/Mentor3.png";
+import mentor4 from "../../assets/Mentor4.png";
+import mentor5 from "../../assets/Mentor5.png";
 import Slider from "react-slick";
 
 function SampleNextArrow(props) {

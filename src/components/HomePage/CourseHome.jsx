@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
-import sd from "../assets/IconSD.png";
-import smp from "../assets/IconSMP.png";
-import sma from "../assets/IconSMA.png";
-import CardCourseHome from "./Card/CardCourseHome";
+import sd from "../../assets/IconSD.png";
+import smp from "../../assets/IconSMP.png";
+import sma from "../../assets/IconSMA.png";
+import CardCourseHome from "../Card/CardCourseHome";
 
 import Title from "./Title";
 

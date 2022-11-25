@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
-import mh1 from "../assets/foto1.png";
-import mh2 from "../assets/Lo.png";
-import mh3 from "../assets/ME.png";
-import CardMasthead from "./Card/CardMasthead";
+import mh1 from "../../assets/foto1.png";
+import mh2 from "../../assets/Lo.png";
+import mh3 from "../../assets/ME.png";
+import CardMasthead from "../Card/CardMasthead";
 
 const Masthead = () => {
   const settings = {

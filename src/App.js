@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import MentorHome from "./components/MentorHome";
+import MentorHome from "./components/HomePage/MentorHome";
 import Home from "./pages/Home";
 
 function App() {

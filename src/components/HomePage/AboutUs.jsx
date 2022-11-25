@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import CardAboutUs from "./Card/CardAboutUs";
+import CardAboutUs from "../Card/CardAboutUs";
 
 import Title from "./Title";
 
