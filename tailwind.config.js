@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         signika: ["Signika Negative"],
         red: ["Red Hat Display"],
+        sarabun: ["Sarabun"],
       },
     },
   },

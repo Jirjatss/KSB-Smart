@@ -1,16 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "./Home.css";
 import About from "../components/About";
 import Masthead from "../components/Masthead";
 import Subheading from "../components/Subheading";
 import bg from "../assets/bg.jpg";
 import bg1 from "../assets/bg1.jpg";
-
 import Navbar from "../layout/Navbar";
 import AboutUs from "../components/AboutUs";
 import CourseHome from "../components/CourseHome";
 import MentorHome from "../components/MentorHome";
 import Footer from "../layout/Footer";
+import Swal from "sweetalert2";
+import "animate.css";
 const Home = () => {
+  useEffect(() => {
+    Swal.fire({
+      title: `Selamat Datang di KSB Smart`,
+      imageUrl: "https://roboguru-forum-cdn.ruangguru.com/image/c8d6923b-c6f1-4a02-a7ad-b7e9d268b138.png?convert=webp&height=320",
+      imageWidth: 400,
+      imageHeight: 200,
+      buttonsStyling: false,
+      showCloseButton: true,
+      showConfirmButton: false,
+      showClass: {
+        popup: "animate__animated animate__fadeInDown",
+      },
+      hideClass: {
+        popup: "animate__animated animate__fadeOut",
+      },
+    });
+  });
   return (
     <>
       <div className="w-full bg-slate-50 text-black pb-5">
