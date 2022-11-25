@@ -40,7 +40,7 @@ const Home = () => {
             <Subheading />
           </div>
         </div>
-        <div className="lg:px-20 px-8 pb-20">
+        <div className="lg:px-20 px-4 pb-20">
           <div className="relative m-auto w-full">
             <About />
           </div>

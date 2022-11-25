@@ -20,10 +20,14 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={active || open ? " bg-[#002e74] border-gray-200  text-white  fixed z-20 top-0 left-0 w-full lg:px-20" : " bg-transparent border-gray-200  text-white  fixed z-20 top-0 left-0 w-full lg:px-20"}>
+      <nav
+        className={
+          active || open ? " bg-[#002e74] border-gray-200  text-white  fixed z-20 top-0 left-0 w-full lg:px-20 px-5 lg:py-0 py-3" : " bg-transparent border-gray-200  text-white  fixed z-20 top-0 left-0 w-full lg:px-20 px-5 lg:py-0 py-3"
+        }
+      >
         <div className="container flex flex-wrap items-center justify-between mx-auto ">
           <Link to="/" className="flex items-center">
-            <img src={require("../assets/logo.png")} className="mr-3 h-3 sm:h-9" alt="Jirjatss Logo" />
+            <img src={require("../assets/logo.png")} className="mr-3 w-16 h-8 " alt="Jirjatss Logo" />
           </Link>
           <button data-collapse-toggle="navbar-dropdown" type="button" className="inline-flex items-center p-2 ml-3 text-sm  rounded-lg md:hidden " aria-controls="navbar-dropdown" aria-expanded="false" onClick={() => setOpen(!open)}>
             <span className="sr-only">Open main menu</span>

@@ -19,7 +19,7 @@ const Masthead = () => {
   };
   return (
     <>
-      <div className="px-10 w-full m-auto py-10">
+      <div className="px-10 w-full m-auto py-10 md:block hidden">
         <Slider {...settings}>
           <div>
             <CardMasthead gambar={mh1} />

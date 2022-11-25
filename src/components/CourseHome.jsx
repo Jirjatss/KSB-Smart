@@ -16,6 +16,7 @@ const CourseHome = () => {
     speed: 500,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    arrows: false,
 
     responsive: [
       {
@@ -23,7 +24,7 @@ const CourseHome = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: true,
+          arrows: false,
         },
       },
     ],
@@ -33,13 +34,13 @@ const CourseHome = () => {
       <Title title={"Course"} />
       <div className="lg:rounded-lg bg-transparent text-white ">
         <Slider {...settings}>
-          <div className="px-2">
+          <div className="lg:px-2">
             <CardCourseHome title={"Sekolah Dasar"} ket={"Pembelajaran Interaktif untuk anak SD"} gambar={sd} />
           </div>
-          <div className="px-2">
+          <div className="lg:px-2">
             <CardCourseHome gambar={smp} title={"SMP"} ket={"Pembelajaran Interaktif untuk anak SMP"} />
           </div>
-          <div className="px-2">
+          <div className="lg:px-2">
             <CardCourseHome gambar={sma} ket={"Pembelajaran Interaktif untuk anak SMA"} title={"SMA"} />
           </div>
         </Slider>
