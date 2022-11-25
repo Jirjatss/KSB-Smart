@@ -21,8 +21,8 @@ const Home = () => {
             <Subheading />
           </div>
         </div>
-        <div className="lg:px-16 px-8 pb-20">
-          <div className="relative mx-auto">
+        <div className="lg:px-20 px-8 pb-20">
+          <div className="relative m-auto w-full">
             <About />
           </div>
           <AboutUs />

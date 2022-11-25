@@ -34,13 +34,13 @@ const CourseHome = () => {
       <div className="lg:rounded-lg bg-transparent text-white ">
         <Slider {...settings}>
           <div className="px-2">
-            <CardCourseHome title={"Sekolah Dasar"} ket={"Pembelajaran Interaktif untuk anak Sekolah Dasar"} gambar={sd} />
+            <CardCourseHome title={"Sekolah Dasar"} ket={"Pembelajaran Interaktif untuk anak SD"} gambar={sd} />
           </div>
           <div className="px-2">
-            <CardCourseHome gambar={smp} title={"SMP"} ket={"Memakai 2 metode pembelajaran yaitu via remote dan tatap muka."} />
+            <CardCourseHome gambar={smp} title={"SMP"} ket={"Pembelajaran Interaktif untuk anak SMP"} />
           </div>
           <div className="px-2">
-            <CardCourseHome gambar={sma} ket={"Hampir 85% warga NTB menggunakan aplikasi KSB SMart"} title={"SMA"} />
+            <CardCourseHome gambar={sma} ket={"Pembelajaran Interaktif untuk anak SMA"} title={"SMA"} />
           </div>
         </Slider>
       </div>

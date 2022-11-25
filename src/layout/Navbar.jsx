@@ -20,8 +20,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={active || open ? " bg-[#002e74] border-gray-200  text-white  fixed z-20 top-0 left-0 w-full" : " bg-transparent border-gray-200  text-white  fixed z-20 top-0 left-0 w-full"}>
-        <div className="container flex flex-wrap items-center justify-between mx-auto">
+      <nav className={active || open ? " bg-[#002e74] border-gray-200  text-white  fixed z-20 top-0 left-0 w-full lg:px-20" : " bg-transparent border-gray-200  text-white  fixed z-20 top-0 left-0 w-full lg:px-20"}>
+        <div className="container flex flex-wrap items-center justify-between mx-auto ">
           <a to="/#home" className="flex items-center">
             <img src={require("../assets/logo.png")} className="mr-3 h-3 sm:h-9" alt="Jirjatss Logo" />
           </a>
