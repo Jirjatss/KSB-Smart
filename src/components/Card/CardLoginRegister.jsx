@@ -17,7 +17,6 @@ const CardMasthead = () => {
   }, [path]);
   return (
     <>
-      <Navbar />
       <div className="bg-cover h-screen flex" style={{ backgroundImage: `url(${bg})` }}>
         <Navbar />
         <div className="grid lg:grid-cols-2 grid-cols-1 px-2  m-auto">

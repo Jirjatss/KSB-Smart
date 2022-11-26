@@ -56,7 +56,9 @@ const Navbar = () => {
                 </a>
                 <ul className={"p-2 bg-[#002e74] absolute left-0 top-10  z-10"} id="dropdown-mycourse">
                   <li>
-                    <a>Course</a>
+                    <Link to="/course" smooth>
+                      Course
+                    </Link>
                   </li>
                   <li>
                     <a>My Course</a>
