@@ -26,9 +26,9 @@ const Navbar = () => {
         }
       >
         <div className="container flex flex-wrap items-center justify-between mx-auto ">
-          <Link to="/" className="flex items-center">
+          <HashLink to="/" className="flex items-center">
             <img src={require("../assets/logo.png")} className="mr-3 w-16 h-8 " alt="Jirjatss Logo" />
-          </Link>
+          </HashLink>
           <button data-collapse-toggle="navbar-dropdown" type="button" className="inline-flex items-center p-2 ml-3 text-sm  rounded-lg md:hidden " aria-controls="navbar-dropdown" aria-expanded="false" onClick={() => setOpen(!open)}>
             <span className="sr-only">Open main menu</span>
             <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,9 @@ const Navbar = () => {
           <div className={open ? "w-full  md:block md:w-auto" : "hidden w-full md:block md:w-auto"} id="navbar-dropdown">
             <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 menu menu-vertical relative">
               <li className="hover:bg-[#002e74] hover:rounded-lg">
-                <a>Home</a>
+                <HashLink to="/#home" smooth>
+                  Home
+                </HashLink>
               </li>
               <li className="hover:bg-[#002e74] hover:rounded-lg">
                 <HashLink to="/#about" smooth>
@@ -62,9 +64,9 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="hover:bg-[#002e74] hover:rounded-lg">
-                <HashLink to="/#about" smooth>
+                <Link to="/login" smooth>
                   Login
-                </HashLink>
+                </Link>
               </li>
             </ul>
           </div>

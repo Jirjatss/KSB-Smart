@@ -29,7 +29,7 @@ const Home = () => {
         popup: "animate__animated animate__fadeOut",
       },
     });
-  });
+  }, []);
   return (
     <>
       <div className="w-full bg-slate-50 text-black pb-5">
